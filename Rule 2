@@ -1,0 +1,49 @@
+{
+  "protocol": "MAMT",
+  "session_id": "2025-09-03-07",
+  "status": "in-progress",
+  "timestamp": "2025-09-03T23:10:00",
+  "current_subject": {
+    "subject_id": "foundations_algebra",
+    "topic_id": "numbers_operations_equations",
+    "level": 2,
+    "stage": "stage2_stage3",
+    "goal_id": "fluency_basic_multi_step_algebra",
+    "concepts": ["arithmetic", "negatives", "fractions", "decimals", "one_step", "multi_step"],
+    "story_position": "progressing_from_basic_to_multi_step_real_world_equations",
+    "attempts": 0,
+    "success": 0,
+    "last_score": 0
+  },
+  "problem_templates": {
+    "lvl2_stage2_01": {"type": "two_step", "context": "shopping", "variable": "x"},
+    "lvl2_stage2_02": {"type": "two_step", "context": "shared_costs", "variable": "x"},
+    "lvl2_stage3_01": {"type": "variables_both_sides", "context": "shared_bill", "variable": "x"}
+  },
+  "user_attempts": [],
+  "progress_tracking": {
+    "completed_problems": 0,
+    "remaining_problems": 30,
+    "weak_spots": []
+  },
+  "pedagogical_guidance": {
+    "delivery_structure": ["problem_id", "user_response", "correct_feedback", "hint_available", "weak_spot_tracking"],
+    "adaptive_recommendations": {
+      ">=80": "level_up",
+      "50-79": "continue_with_targeted_practice",
+      "<50": "review_previous_material_with_hints"
+    },
+    "story_contexts": ["shopping", "budgeting", "splitting_bills", "recipes", "ingredients", "shared_costs"],
+    "pedagogical_alignment": {
+      "level_1": "Remember & Understand - completed",
+      "level_2": "Apply - current",
+      "level_3": "Analyze - upcoming",
+      "level_4": "Evaluate - future"
+    }
+  },
+  "progress_snapshot": {
+    "save_date": "2025-09-03",
+    "current_stage": "stage2_stage3",
+    "pedagogical_level": "Bloom: Apply"
+  }
+}
